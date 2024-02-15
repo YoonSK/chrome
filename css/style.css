@@ -1,0 +1,80 @@
+.hidden{
+  display: none;
+}
+
+#bgId{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+#clock{
+  text-align: center;
+  font-size: 112px;
+  margin-top: 13%;
+  color: white;
+}
+
+.field input{
+  border: none;
+  background: transparent;
+  font-size: 22px;
+  margin: 3px;
+  text-align: center;
+  color: white;
+  border-bottom: 2px solid #ecf0f1;
+
+}
+
+#login-form {
+  text-align: center;
+}
+#login-form button{
+  font-size: 20px;
+  color: white;
+  text-shadow: 0px 0px 5px black;
+  width: 100px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 15px;
+  background-color: rgb(251, 249, 249, 0.4);
+  cursor: pointer;
+}
+
+input::placeholder{color: white;}
+
+ul {
+  margin-left: 40%;
+}
+
+li{
+  list-style: none;
+  font-size: 20px;
+  text-align:left;
+  color: #ecf0f1;
+}
+li:before{
+  content:'🤍';
+  display: inline;
+  vertical-align: left;
+  padding: 5px;
+}
+
+#todo-form input{
+  background: none;
+  border: none;
+  text-align: center;
+  width: 95%;
+}
+
+.showing{
+  display: block;
+  transition: color .5s ease-in-out;
+  font-size: 34px;
+  margin-top: 0px;
+  text-align: center;
+  color: white;
+}
